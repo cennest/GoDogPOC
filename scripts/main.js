@@ -17,7 +17,6 @@
 })(jQuery);
 
 $(document).ready(function () {
-  sessionStorage.clear();
   $.ajax({ url: '../users.json', method: "GET" })
     .success(function (response) {
       userJson = response.Users;
