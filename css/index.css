@@ -1,0 +1,183 @@
+@import url(fonts.css);
+
+html {
+  min-height: 100%;
+  position: relative;
+  font-family: 'Agenda-Light';
+}
+
+body {
+  background-image: url('../images/GoDog\ Sales_LOGIN.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #BEBEBE;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1%;
+  font-size: .7rem;
+}
+
+.head-container {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.head-container img {
+  width: 70%;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  margin-top: 3%;
+}
+
+.login-container .card {
+  padding-bottom: 17%;
+  border-radius: 25px;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.logo-container img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.form-container {
+  padding: 0 45px;
+}
+
+.form-container div:first-child {
+  margin-bottom: 8px;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #000;
+}
+
+.form-container input {
+  height: 25px !important;
+  border-bottom: .5px solid #9e9e9e96 !important;
+}
+
+.form-container input:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #949494;
+  -webkit-box-shadow: 0 1px 0 0 #949494;
+  box-shadow: 0 1px 0 0 #949494;
+}
+
+#password {
+  margin-bottom: 0;
+}
+
+.forgot-password-container {
+  text-align: right;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.6);
+  text-decoration: underline;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+  right: 2px;
+}
+
+.login-button-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.button-style {
+  height: 48px;
+  width: 110px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  padding: 6px;
+  font-weight: 600;
+  background-color: #F30000;
+  border-top: 1px solid #ccc;
+}
+
+.yellow-tint {
+  color: #FBDFBB;
+}
+
+.navigation-container {
+  min-width: 500px;
+  margin-top: 7%;
+}
+
+.navigation-container .card {
+  padding-bottom: 14%;
+  border-radius: 25px;
+}
+
+.buttons-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons-container button:first-child {
+  margin: 15px 0;
+  background-color: #F30000;
+}
+
+.buttons-container button:last-child {
+  color: #2E0A4A;
+}
+
+.buttons-container button {
+  width: 70%;
+  font-family: 'Agenda Bg';
+}
+@media only screen and (max-width: 1024px) {
+  .navigation-container {
+    margin-top: 10%;
+  }
+
+  .login-container {
+    margin-top: 5%;
+  }
+}

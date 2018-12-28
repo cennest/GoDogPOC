@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+    Mirrored from www.shermanoaksll.com/home.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Dec 2018 13:28:00 GMT
+  -->
+<!-- Added by HTTrack
+  -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!--
+    /Added by HTTrack
+  -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="admin/include/combine6c40.css?b=/&amp;type=css&amp;cache=1&amp;min=1&amp;files=/admin/include/trinkets/AdvancedPublishingTrinket/style.css,/admin/include/trinkets/BannerTrinket/style.css,/admin/include/trinkets/ImageRotatorTrinket/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/video-js.css" />
+  <script src="../scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.accordionMenu.js"></script>
+  <script src="scripts/sldp-v2.11.1.min.js"></script>
+  <script src="scripts/video.js"></script>
+  <script src="scripts/videojs-contrib-hls.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/default.css" media="screen,print" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen,print" />
+  <link rel="stylesheet" type="text/css" href="css/extra.css" />
+  <link rel="stylesheet" type="text/css" href="css/pignose.calendar.min.css" media="screen,print" />
+  <link rel="stylesheet" type="text/css" href="css/overrides.css" media="screen,print" />
+</head>
+
+<body class="layout_threecolumn">
+  <!-- // begin header // -->
+  <div class="header">
+    <div class="hdr_name">Sherman Oaks Little League</div>
+    <a href="index.html">
+      <div class="header_home_link"></div>
+    </a>
+    <a href="javascript:void(0)" title="Member Login" class="member_login"></a>
+  </div>
+  <!-- // end header // -->
+
+  <!-- // begin horizontal navbar // -->
+  <div class="hnav">
+    <div class="hmenu">
+      <ul class="cssMenu cmDown">
+        <li>
+          <span class="button-text">Home</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">About</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Calendar</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Schedules</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text"> Registration</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Forms</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Volunteers</span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Sponsors</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Photos</span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Home Run Hitters</span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">Rules</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+        <li>
+          <span class="button-text">FAQs</span>
+          <span class="buttonArrow"></span>
+          <span class="iefix">&nbsp;</span>
+        </li>
+      </ul>
+      <br style="clear:both;" />
+    </div>
+  </div>
+  <!-- // end horizontal navbar // -->
+
+  <!-- // begin full width content // -->
+  <div class="fullwidthcontainer">
+
+    <div class="welcome-section" id="welcome-section">
+      <div class="content_bg">
+        <div class="col_ctr">
+          <!-- // begin widget container // -->
+          <div class="wgt_container">
+            <div class="mid">
+              <div class="right">
+                <div class="content" align="left">
+                  <div id="sldp_player_wrapper" class="hidden"></div>
+                  <video id="hls_player" width=680 height=520 class="video-js vjs-default-skin hidden" controls >
+                    <source src="http://video.wmspanel.com/local/raw/nimble.mp4/playlist.m3u8" type="application/x-mpegURL">
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // end widget container // -->
+        </div>
+        <div class="col_ex_right">
+          <div class="welcome-card">
+            <div class="logo-card">
+              <img src="../images/GDGS_SOLL_logo.png">
+            </div>
+            <div class="form-input">
+              <div class="welcomeLabel">
+                Welcome back, <span id="username" style="color: red;"></span>
+              </div>
+              <hr>
+            </div>
+            <div class="form-input">
+              <div id="accordMenu">
+                <ul>
+                  <li>GoDog DVR
+                    <ul style="list-style:none">
+                      <li>
+                        <div class="calendar"></div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" style="cursor: pointer;position: relative;">
+                      <div class="acdnArrowImage"></div>
+                      Tag Video
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" style="cursor: pointer;position: relative;">
+                      <div class="acdnArrowImage"></div>
+                      Highlight Reel
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="helpAndFaq">
+              <div>
+                <a href="javascript:void(0)" style="float:left;">Need Help?</a>
+                <div class="helpDivider">&nbsp;</div>
+                <a href="javascript:void(0)" style="float:right;">FAQ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- // end full width content // -->
+
+  <div class="mainContainer clearfix">
+    <!-- // begin content // -->
+    <div class="content_bg">
+      <!-- // begin left column // -->
+      <div class="col_left" align="center">
+        <div class="col_left_top"></div>
+
+        <!-- // begin widget container // -->
+        <div class="wgt_container">
+          <div class="top">
+            <div class="right">
+              <div class="content">Fields &amp; Cages</div>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="right">
+              <div class="content" align="left">
+                <div class="advPubTkt-content">
+                  <p style="text-align: center;">
+                    <span style="font-size: 10pt;">
+                      <strong>
+                        <span style="color: #993300;">
+                          <span style="font-size: 12pt;">WEATHER</span>
+                        </span>
+                      </strong>
+                    </span>
+                  </p>
+                  <p style="text-align: left;">
+                    <span style="font-size: 10pt;">
+                      <span style="color: #993300;">
+                        <span style="color: #000000;">
+                          Fields are <strong>OPEN.</strong>
+                        </span>
+                      </span>
+                      <br />
+                    </span>
+                  </p>
+                  <p style="text-align: left;">
+                    <span style="color: #993300; font-size: 10pt;">
+                      <span style="color: #000000;">
+                        Visit our
+                        <strong>
+                          <span style="color: #0000ff;">
+                            <a href="https://www.facebook.com/ShermanOaksLL/" target="_blank" rel="noopener">Facebook
+                              page</a>
+                          </span>
+                        </strong>
+                        for faster weather updates.
+                      </span>
+                    </span>
+                  </p>
+                  <p style="text-align: left;">
+                    <span style="font-size: 10pt;">
+                      <strong>
+                        <span style="color: #993300;">
+                          Weather hotline! Dial 818-303-2188 for the latest
+                          weather and SOLL updates.
+                        </span>
+                      </strong>
+                    </span>
+                  </p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                  <p style="text-align: left;"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="right">
+              <div class="content">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <div class="wgt_container">
+          <div class="top">
+            <div class="right">
+              <div class="content">Facebook</div>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="right">
+              <div class="content" align="left">
+                <div class="advPubTkt-content">
+                  <p>
+                    <span style="font-size: 12pt;">
+                      <strong>
+                        Follow our
+                        <a href="https://www.facebook.com/ShermanOaksLL/" target="_blank" rel="noopener">SOLL Facebook</a>
+                        for the latest news!
+                      </strong>
+                    </span>
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="right">
+              <div class="content">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <!-- // end widget container // -->
+      </div>
+      <!-- // end leftcolumn // -->
+
+      <!-- // begin center column // -->
+      <div class="col_ctr">
+        <div class="col_ctr_top"></div>
+
+        <!-- // begin widget container // -->
+        <div class="sam_banner"></div>
+        <div class="wgt_container">
+          <div class="top">
+            <div class="right">
+              <div class="content">Spring 2019 Registration</div>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="right">
+              <div class="content" align="left">
+                <div class="advPubTkt-content">
+                  <p style="text-align: center;">
+                    <span style="font-size: 14pt; color: #993300;">
+                      <strong>Spring Registration Opens November 10</strong>
+                      <br />
+                      <br />
+                      <span style="font-size: 12pt; color: #000000;">
+                        $300 - League Age 8 &amp; older (All kid pitch
+                        divisions - AA and up)<br /></span>
+                    </span>
+                    <span style="font-size: 14pt; color: #000080;">
+                      <span style="font-size: 12pt; color: #000000;">
+                        $200 - League Age 7 &amp; younger (Machine Pitch,
+                        Coach Pitch, and Tee Ball)
+                      </span>
+                      <br />
+                    </span>
+                  </p>
+                  <div class="body undoreset">
+                    <div class="email-wrapped">
+                      <div>
+                        <div>
+                          <div>
+                            <p>
+                              <span style="font-size: 12pt; color: #000080;">
+                                <strong><span style="font-family: arial, helvetica, sans-serif;">Things to know:</span></strong>
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>Registration is open November 10<sup>th</sup> until December 20<sup>th</sup></strong>
+                                <span style="text-decoration: underline;">
+                                  <em>or until all spots are filled</em>
+                                </span>
+                                , whichever comes first. There are a limited
+                                number of spots so don't wait.
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>The Spring season begins in early February</strong> and goes through the end of
+                                May.
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>Tryouts are Jan 5th and 6th</strong>
+                                for kids that are League Age 7 and older
+                                (Machine Pitch and older). The makeup date
+                                will be the following weekend (January 12<sup>th</sup>
+                                &amp; 13<sup>th</sup>).
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>Teams will be formed at the end of January</strong>, at which time you'll be
+                                contacted by amanager.
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>SOLL is a purely age-based league,</strong>
+                                and kids are placed on teams based on their
+                                2019 "League Age" rather than skill or
+                                experience level. Your child's League Age is
+                                the age that they are as of August 31, 2019.
+                                For the 2019 Little League Age Chart, click
+                                here:
+                                <a href="javascript:void(0)">/agechart</a>
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>Managers will be selected in early December</strong>
+                                . If you're willing and able to manage your
+                                child's team or if you have any questions
+                                about what it entails, please email
+                                <a href="mailto:michaelross1818@me.com" target="_blank" rel="noopener">michaelross1818@me.com</a>
+                                , and you can also sign up directly in volunteer signups when you register your child
+                                to play.
+                              </span>
+                            </p>
+                            <p>
+                              <span style="font-size: 12pt; font-family: arial, helvetica, sans-serif; color: #000080;">
+                                <strong>For any questions</strong> regarding registration or tryouts, please email
+                                <a href="mailto:azzie.mackenzie@fox.com" target="_blank" rel="noopener">azzie.mackenzie@fox.com</a>.
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="right">
+              <div class="content">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <!-- // end widget container // -->
+      </div>
+      <!-- // end center column // -->
+
+      <!-- // begin right column // -->
+      <div class="col_right" align="center">
+        <div class="col_right_top"></div>
+
+        <!-- // begin widget container // -->
+        <div class="wgt_container">
+          <div class="top">
+            <div class="right">
+              <div class="content">SOLL Sponsors</div>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="right">
+              <div class="content" align="left">
+                <div class="ImageRotatorTrinket">
+                  <div class="slide">
+                    <img src="../images/Antonios_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/BodyUnlimited_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/Carneys_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/CasaVega_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/CastleBatting_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/DrLim_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/HSDLaw_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/FitBody_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/FitBox_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/Harvest_Bar_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/Hertzberg_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/KilowattElectric_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/LAOrthopaedic_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/LASolar_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/LosEncinos_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/MendocinoFarms_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/MichelleSchwartz_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/ServPro_web.jpg" />
+                  </div>
+                  <div class="slide">
+                    <img src="../images/RocknPies_web.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="right">
+              <div class="content">&nbsp;</div>
+            </div>
+          </div>
+        </div>
+        <!-- // end widget container // -->
+      </div>
+      <!-- // end right column // -->
+
+      <div class="clearfix"></div>
+    </div>
+    <!-- // end content // -->
+  </div>
+  <!-- // end #mainContainer // -->
+
+  <!-- // begin footer // -->
+  <div class="footer" align="right">
+    <div class="wgt_container">
+      <div class="top">
+        <div class="right">
+          <div class="content"></div>
+        </div>
+      </div>
+      <div class="mid">
+        <div class="right">
+          <div class="content" align="left">
+            <div class="bonzi_logo">
+              <a href="http://www.bonzicentral.com/" rel="nofollow">
+                <img src="../images/memberhome_footer-logo.png" alt="Sports League Websites by Bonzi Sports Software "
+                  border="0" />
+              </a>
+            </div>
+            <div class="footer_content">
+              Copyright &copy; 2001 - 2018 Sherman Oaks Little League. All
+              Rights Reserved.<br />
+              <a href="http://www.bonzicentral.com/baseball-softball" rel="nofollow">Baseball League Management
+                Software </a>
+              <br />
+              &copy; 2001 - 2018
+              <a href="http://clubandleague.stacksports.com/" rel="nofollow">Stack Sports</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="right">
+          <div class="content">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- // end footer // -->
+  <script src="scripts/pignose.calendar.full.min.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+
+<!--
+    Mirrored from www.shermanoaksll.com/home.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Dec 2018 13:30:24 GMT
+  -->
+
+</html>

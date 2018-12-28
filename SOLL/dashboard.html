@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/dashboard.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../scripts/jquery.min.js"></script>
+    <script src="../scripts/materialize.min.js"></script>
+</head>
+
+<body>
+    <div style="padding-bottom: 3rem;">
+        <div class="header">
+            <h4>GODOG DASHBOARD</h4>
+            <i class="medium material-icons" onclick="location.href='../welcome.html'">close</i>
+            <img src="../images/GDGS_LG copy.png" class="logo" />
+        </div>
+        <div class="dashboard-container">
+            <div class="card">
+                <div class="card-header">
+                    <h5>CAMERA CONTROLS</h5>
+                </div>
+                <div class="display-messages-container">
+                    <p class="bold">Display Messages In Video Player To End User</p>
+
+                    <div class="control-container">
+                        <span class="control-count">1</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <input type="text" name="field1" placeholder="Type Field 1 Message">
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">2</span>
+                        <div class="field-image active"></div>
+                        <div class="control active">
+                            <input type="text" name="field2" placeholder="Type Field 2 Message" value="Rain Delay - 15 Minutes">
+                            <label class="form-switch">
+                                <input type="checkbox" checked="true">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">3</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <input type="text" name="field2" placeholder="Type Field 3 Message">
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="camera-control-container">
+                    <p class="bold">Turn Cams On/Off</p>
+
+                    <div class="control-container">
+                        <span class="control-count">1</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <span>Turn Field 1 Cam On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">2</span>
+                        <div class="field-image active"></div>
+                        <div class="control active">
+                            <span>Turn Field 2 Cam On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox" checked="true">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">3</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <span>Turn Field 3 Cam On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="camera-audio-container">
+                    <p class="bold">Turn Cams Audio On/Off</p>
+
+                    <div class="control-container">
+                        <span class="control-count">1</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <span>Turn Field 1 Cam Audio On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">2</span>
+                        <div class="field-image active"></div>
+                        <div class="control active">
+                            <span>Turn Field 2 Audio Cam On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox" checked="true">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="control-container">
+                        <span class="control-count">3</span>
+                        <div class="field-image"></div>
+                        <div class="control">
+                            <span>Turn Field 3 Audio Cam On/Off</span>
+                            <label class="form-switch">
+                                <input type="checkbox">
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="control">
+                    <span class="bold">Schedule Cams</span>
+                    <i class="material-icons">chevron_right</i>
+                </div>
+
+            </div>
+
+            <div class="middle-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>DVR CONTROLS</h5>
+                    </div>
+
+                    <p class="bold dvr-text">Select 0, 2, Or 90 Day DVR For Families To Access</p>
+                    <div class="dot-container">
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span class="indentation">0</span>
+                        </label>
+
+                        <label>
+                            <input name="group1" type="radio" checked />
+                            <span class="indentation">2</span>
+                        </label>
+
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>90</span>
+                        </label>
+                    </div>
+
+                    <div class="divider dvr-divider"></div>
+
+                    <p class="bold dvr-text">Select 0, 2, Or 90 Day DVR For <span class="red-text">Admins</span> To
+                        Access</p>
+                    <div class="dot-container">
+                        <label>
+                            <input name="group2" type="radio" />
+                            <span class="indentation">0</span>
+                        </label>
+
+                        <label>
+                            <input name="group2" type="radio" />
+                            <span class="indentation">2</span>
+                        </label>
+
+                        <label>
+                            <input name="group2" type="radio" checked/>
+                            <span>90</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h5>USAGE STATS</h5>
+                    </div>
+                    <div class="navigation-control">
+                        <span class="bold">User Data & Viewership Dashboard</span>
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5>ADVERTISING</h5>
+                    </div>
+                    <div class="navigation-control">
+                        <span class="bold">Upload Ad Units</span>
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="navigation-control">
+                        <span class="bold">Ad Logic & Stats</span>
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotspot-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>HOTSPOT</h5>
+                    </div>
+                    <div class="navigation-control">
+                        <span class="bold">Service Level</span>
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="button-container">
+                        <button class="waves-effect waves-light btn yellow-tint" type="submit">
+                            Reset
+                        </button>
+                        <button class="waves-effect waves btn white black-text">
+                            Test
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        Copyright Legal Text and whatever else we might need on this page
+    </div>
+
+    <script src="scripts/dashboard.js"></script>
+</body>
+
+</html>

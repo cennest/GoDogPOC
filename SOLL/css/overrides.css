@@ -1,0 +1,464 @@
+/* << ----------------// Full Width Template Style Overrides //---------------->> */
+
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+html {
+  background: url("../../images/shermanoaks-bg.jpg") no-repeat center top #263E60;
+  margin: 0;
+}
+
+body {
+  background: url("../../images/bg.png") repeat-x center top transparent;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.content_bg {
+  min-height: 50px;
+}
+
+.content_bg_white {
+  background-color: #FFF;
+  width: 1000px;
+  clear: both;
+}
+
+.layout_threecolumn .content_bg {
+  background: url("../../images/content_bg.png") repeat-y center top;
+}
+
+.layout_leftcolumn .content_bg {
+  background: url("../../images/content_bg.png") repeat-y center top;
+}
+
+.layout_rightcolumn .content_bg {
+  background: url("../../images/content_bg.png") repeat-y center top;
+}
+
+.layout_singlecolumn .content_bg {
+  background: url("../../images/content_bg.png") repeat-y center top;
+}
+
+/* << ----------------// Header //---------------->> */
+
+.header {
+  margin: 0 auto;
+  height: 289px;
+  width: 1000px;
+  background-position: center top;
+}
+
+.header_home_link {
+  width: 1000px;
+  height: 247px;
+}
+
+.member_login {
+  top: 10px;
+  left: 410px;
+  height: 28px;
+  width: 180px;
+  background-image: url("../../images/member_login.png");
+  z-index: 100;
+}
+
+/* << ----------------// Full Width Container //---------------->> */
+
+.fullwidthcontainer {
+  background: url("../../images/content_bg.png") repeat-y center bottom transparent;
+  font-family: 'Agenda-Light';
+  font-weight: 400;
+  font-style: normal;
+  width: 1000px;
+  margin: 0 auto;
+  height: 540px;
+}
+
+.fullwidthcontainer .wgt_container {
+  width: 990px;
+  margin: 0 5px;
+  padding-top: 10px;
+}
+
+.fullwidthcontainer .wgt_container:first-child {
+  padding-top: 4px;
+}
+
+.fullwidthcontainer .wgt_container:last-child {
+  padding-bottom: 0;
+}
+
+.fullwidthcontainer .mid .content {
+  padding-top: 0;
+}
+
+.fullwidthcontainer .wgt_container .content {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.fullwidthcontainer .bottom, .fullwidthcontainer .bottom .content {
+  height: 10px;
+  margin-bottom: 0;
+}
+
+.fullwidthcontainer .top, .fullwidthcontainer .top .content {
+  color: #FFF;
+  font-size: 26px;
+  text-align: left;
+  text-indent: -10px;
+  height: 48px;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: 'Squada One', sans-serif;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.fullwidthcontainer .top .content {
+  background-position: bottom right;
+}
+
+.fullwidthcontainer .col_ctr {
+  width: 680px;
+}
+
+.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container {
+  width: 680px;
+}
+
+.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .content, .layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .mid, .layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .right {
+  background: none;
+}
+
+/* << ----------------// Left column //---------------->> */
+
+.col_left_top {
+  background: none;
+  height: 5px;
+}
+
+.col_left .top, .col_left .top .content {
+  color: #222;
+  font-size: 21px;
+  text-align: left;
+  line-height: 38px;
+  height: 45px;
+  text-indent: -1px;
+  font-weight: 400;
+  font-family: 'Squada One', serif;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);
+}
+
+.col_left .mid .content {
+  padding: 3px 0 10px;
+}
+
+.col_left .bottom, .col_left .bottom .content {
+  height: 10px;
+}
+
+.col_left .wgt_container {
+  width: 190px;
+  margin: 0 5px 10px;
+}
+
+/* << ----------------// Vertical navigation //---------------->> */
+
+/* not currently applicable in this template */
+
+.nav {
+  display: none;
+  margin: 0;
+}
+
+.v_nav_top {
+  height: 0;
+  display: none;
+}
+
+.v_nav_btm {
+  height: 0;
+  display: none;
+}
+
+/* style for all buttons */
+
+.col_left>ul.cssMenu {
+  margin-bottom: 15px;
+}
+
+ul.cssMenu li {
+  height: 28px;
+  line-height: 28px;
+  text-indent: 12px;
+  color: #FFF;
+  text-transform: none;
+  background: #000;
+}
+
+ul.cssMenu li .button-text {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+ul.cssMenu li.over>a.button-text, ul.cssMenu li:hover>a {
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+
+ul.cssMenu li.over, ul.cssMenu li:hover {
+  background: #FFF;
+}
+
+/* style for buttons in a sub menu */
+
+ul.cssMenu li li {
+  background: #FFF;
+  top: 2px;
+  height: 28px;
+  line-height: 28px;
+  text-indent: 9px;
+}
+
+ul.cssMenu li li .button-text {
+  color: #000;
+}
+
+ul.cssMenu li li.over, ul.cssMenu li li:hover {
+  background: #000;
+}
+
+ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
+  color: #FFF;
+}
+
+/* << ----------------// Horizontal Nav //---------------->> */
+
+.hnav {
+  position: absolute;
+  width: 100%;
+  top: 252px;
+}
+
+.hmenu {
+  width: 998px;
+  padding-left: 2px;
+  padding-right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.hmenu ul.cssMenu li {
+  width: auto;
+  height: 30px;
+  text-indent: 0;
+  padding-left: 9px;
+  padding-right: 11px;
+  color: #FFF;
+  line-height: 30px;
+  margin-top: 0;
+  font-family: 'Squada One', serif;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  background-image: url("../../images/h_nav_up.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: bottom right;
+}
+
+.hmenu ul.cssMenu li .button-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hmenu ul.cssMenu li.over>a.button-text, .hmenu ul.cssMenu li:hover>a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFF;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.hmenu ul.cssMenu li.over, .hmenu ul.cssMenu li:hover {
+  background-image: url("../../images/h_nav_ovr.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: bottom right;
+}
+
+/* sub menu */
+
+.hmenu ul.cssMenu ul {}
+
+.hmenu ul.cssMenu li li {
+  /* subnavigation item up color */
+  top: 0;
+  /* subnavigation item top alignment to main menu item */
+  left: 0;
+  height: 30px;
+  /* height of subnavigation item */
+  line-height: 30px;
+  /* vertical text alignment of subnavigation item */
+  margin-bottom: 0;
+  margin-top: 0;
+  border-right: none;
+  border-left: none;
+  width: 200px;
+  text-indent: 0;
+  font-size: 15px;
+  background: none;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.hmenu ul.cssMenu li li .button-text {
+  margin-top: 0;
+  color: #FFF;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.hmenu ul.cssMenu li li.over, .hmenu ul.cssMenu li li:hover {
+  background-image: url("../../images/h_nav_ovr2.png");
+  background-repeat: repeat-x;
+  background-color: transparent;
+  background-position: bottom right;
+}
+
+.hmenu ul .cssMenu li li.over>a.button-text, .hmenu ul.cssMenu li li:hover>a {
+  color: #FFF;
+  /* text color, needed on sam system */
+  font-size: 15px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.hmenu ul.cssMenu li li ul {
+  margin-top: -30px;
+  margin-left: 220px;
+}
+
+.hmenu ul.cssMenu .cmDown {
+  top: 28px;
+  left: 0;
+  padding: 2px 0;
+  background-color: #0C2850;
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, .3);
+}
+
+/* << ----------------// Center column //---------------->> */
+
+.col_ctr_top {
+  background: none;
+  height: 4px;
+}
+
+/* << ----------------// Center widget //---------------->> */
+
+.col_ctr .top .content {
+  color: #FFF;
+  font-size: 26px;
+  text-align: left;
+  text-indent: -10px;
+  line-height: 38px;
+  font-weight: 400;
+  background-position: bottom right;
+  font-family: 'Squada One', sans-serif;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.col ctr .wgt_container .mid .content {
+  padding-top: 3px;
+}
+
+.col_ctr .top, .col_ctr .top .content {
+  height: 48px;
+}
+
+.col_ctr .bottom, .col_ctr .bottom .content {
+  height: 20px;
+}
+
+.layout_threecolumn .col_ctr .wgt_container {
+  width: 600px;
+  padding-top: 0;
+  margin: 0 auto 10px;
+}
+
+.layout_leftcolumn .col_ctr .wgt_container {
+  width: 795px;
+  padding-top: 0;
+  margin: 0 5px 10px 0;
+  padding-bottom: 0;
+}
+
+.layout_rightcolumn .col_ctr .wgt_container {
+  width: 795px;
+  padding-top: 0;
+  margin: 0 0 10px 5px;
+  padding-bottom: 0;
+}
+
+.layout_singlecolumn .col_ctr .wgt_container {
+  width: 990px;
+  padding-top: 0;
+  margin: 0 auto 10px;
+  padding-bottom: 0;
+}
+
+/* << ----------------// Right column //---------------->> */
+
+.col_right_top {
+  background: none;
+  height: 5px;
+}
+
+.col_right .top, .col_right .top .content {
+  color: #222;
+  font-size: 21px;
+  text-align: left;
+  line-height: 38px;
+  height: 45px;
+  text-indent: -1px;
+  font-weight: 400;
+  font-family: 'Squada One', serif;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);
+}
+
+.col_right .bottom, .col_right .bottom .content {
+  height: 10px;
+}
+
+.col_right .mid .content {
+  padding: 3px 0 10px;
+}
+
+.col_right .wgt_container {
+  width: 190px;
+  margin: 0 5px 10px;
+}
+
+/* << ----------------// Footer //---------------->> */
+
+.footer {
+  height: 117px;
+  width: 1000px;
+  background-image: url("../../images/footer.png");
+  background-color: transparent;
+}
+
+.footer_content {
+  color: #fff;
+  margin-top: 15px;
+  width: 860px;
+}
+
+.bonzi_logo {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+a.bonzi_learnmore, a.bonzi_moreinfo, a.bonzi_readmore, a.bonzi_registernow {
+  height: 39px !important;
+  padding-left: 141px !important;
+}

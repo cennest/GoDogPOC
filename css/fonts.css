@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Agenda Bg';
+  src: url('../fonts/AgendaBg-Regular.woff2') format('woff2'), url('../fonts/AgendaBg-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Agenda-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agenda-Light'), url('../fonts/agenda_light.woff') format('woff');
+}
