@@ -17,6 +17,7 @@
 })(jQuery);
 
 $(document).ready(function () {
+  sessionStorage.clear();
   $.ajax({ url: '../users.json', method: "GET" })
     .success(function (response) {
       userJson = response.Users;
@@ -31,7 +32,7 @@ $(document).ready(function () {
         sessionStorage.setItem('username', user.name);
         window.location.href = 'welcome.html';
       } else {
-        $.notify("You have entered an invalid username or password", { color: "#fff", background: "#D44950" });
+        $.notify("You have entered an invalid username or password", { type: "danger" });
       }
       // $("#login-section").hide();
       // $("#welcome-section").show();
