@@ -1,6 +1,6 @@
 /* << ----------------// Full Width Template Style Overrides //---------------->> */
-
 @import url(https://fonts.googleapis.com/css?family=Squada+One);
+
 html {
   background: url("../../images/shermanoaks-bg.jpg") no-repeat center top #263E60;
   margin: 0;
@@ -99,12 +99,14 @@ body {
   margin-right: 0;
 }
 
-.fullwidthcontainer .bottom, .fullwidthcontainer .bottom .content {
+.fullwidthcontainer .bottom,
+.fullwidthcontainer .bottom .content {
   height: 10px;
   margin-bottom: 0;
 }
 
-.fullwidthcontainer .top, .fullwidthcontainer .top .content {
+.fullwidthcontainer .top,
+.fullwidthcontainer .top .content {
   color: #FFF;
   font-size: 26px;
   text-align: left;
@@ -128,7 +130,9 @@ body {
   width: 680px;
 }
 
-.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .content, .layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .mid, .layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .right {
+.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .content,
+.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .mid,
+.layout_threecolumn .fullwidthcontainer .col_ctr .wgt_container .right {
   background: none;
 }
 
@@ -139,7 +143,8 @@ body {
   height: 5px;
 }
 
-.col_left .top, .col_left .top .content {
+.col_left .top,
+.col_left .top .content {
   color: #222;
   font-size: 21px;
   text-align: left;
@@ -155,7 +160,8 @@ body {
   padding: 3px 0 10px;
 }
 
-.col_left .bottom, .col_left .bottom .content {
+.col_left .bottom,
+.col_left .bottom .content {
   height: 10px;
 }
 
@@ -185,7 +191,7 @@ body {
 
 /* style for all buttons */
 
-.col_left>ul.cssMenu {
+.col_left > ul.cssMenu {
   margin-bottom: 15px;
 }
 
@@ -203,13 +209,15 @@ ul.cssMenu li .button-text {
   font-size: 12px;
 }
 
-ul.cssMenu li.over>a.button-text, ul.cssMenu li:hover>a {
+ul.cssMenu li.over > a.button-text,
+ul.cssMenu li:hover > a {
   font-weight: bold;
   font-size: 12px;
   color: #000;
 }
 
-ul.cssMenu li.over, ul.cssMenu li:hover {
+ul.cssMenu li.over,
+ul.cssMenu li:hover {
   background: #FFF;
 }
 
@@ -227,11 +235,13 @@ ul.cssMenu li li .button-text {
   color: #000;
 }
 
-ul.cssMenu li li.over, ul.cssMenu li li:hover {
+ul.cssMenu li li.over,
+ul.cssMenu li li:hover {
   background: #000;
 }
 
-ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
+ul.cssMenu li li.over > a.button-text,
+ul.cssMenu li li:hover > a {
   color: #FFF;
 }
 
@@ -273,14 +283,16 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   font-size: 18px;
 }
 
-.hmenu ul.cssMenu li.over>a.button-text, .hmenu ul.cssMenu li:hover>a {
+.hmenu ul.cssMenu li.over > a.button-text,
+.hmenu ul.cssMenu li:hover > a {
   font-weight: 400;
   font-size: 18px;
   color: #FFF;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
 }
 
-.hmenu ul.cssMenu li.over, .hmenu ul.cssMenu li:hover {
+.hmenu ul.cssMenu li.over,
+.hmenu ul.cssMenu li:hover {
   background-image: url("../../images/h_nav_ovr.png");
   background-repeat: no-repeat;
   background-color: transparent;
@@ -319,14 +331,16 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   font-weight: 400;
 }
 
-.hmenu ul.cssMenu li li.over, .hmenu ul.cssMenu li li:hover {
+.hmenu ul.cssMenu li li.over,
+.hmenu ul.cssMenu li li:hover {
   background-image: url("../../images/h_nav_ovr2.png");
   background-repeat: repeat-x;
   background-color: transparent;
   background-position: bottom right;
 }
 
-.hmenu ul .cssMenu li li.over>a.button-text, .hmenu ul.cssMenu li li:hover>a {
+.hmenu ul .cssMenu li li.over > a.button-text,
+.hmenu ul.cssMenu li li:hover > a {
   color: #FFF;
   /* text color, needed on sam system */
   font-size: 15px;
@@ -371,11 +385,13 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   padding-top: 3px;
 }
 
-.col_ctr .top, .col_ctr .top .content {
+.col_ctr .top,
+.col_ctr .top .content {
   height: 48px;
 }
 
-.col_ctr .bottom, .col_ctr .bottom .content {
+.col_ctr .bottom,
+.col_ctr .bottom .content {
   height: 20px;
 }
 
@@ -413,7 +429,8 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   height: 5px;
 }
 
-.col_right .top, .col_right .top .content {
+.col_right .top,
+.col_right .top .content {
   color: #222;
   font-size: 21px;
   text-align: left;
@@ -425,7 +442,8 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 1);
 }
 
-.col_right .bottom, .col_right .bottom .content {
+.col_right .bottom,
+.col_right .bottom .content {
   height: 10px;
 }
 
@@ -458,7 +476,16 @@ ul.cssMenu li li.over>a.button-text, ul.cssMenu li li:hover>a {
   margin-right: 10px;
 }
 
-a.bonzi_learnmore, a.bonzi_moreinfo, a.bonzi_readmore, a.bonzi_registernow {
+a.bonzi_learnmore,
+a.bonzi_moreinfo,
+a.bonzi_readmore,
+a.bonzi_registernow {
   height: 39px !important;
   padding-left: 141px !important;
+}
+
+#sldp_player_wrapper video {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }
