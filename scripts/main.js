@@ -17,13 +17,22 @@
 })(jQuery);
 
 $(document).ready(function () {
+  $.ajax({ url: '../users.json', method: "GET" })
+    .success(function (response) {
+      userJson = response.Users;
+    });
+
   $("#loginForm").submit(function (event) {
     event.preventDefault();
     const loginData = $(this).serializeFormJSON();
     if (loginData.email && loginData.password) {
-      localStorage.setItem('username', loginData.email);
-      window.location.href = 'welcome.html';
-
+      var user = userJson.find(user => user.email === loginData.email && user.password === loginData.password);
+      if (user) {
+        sessionStorage.setItem('username', user.name);
+        window.location.href = 'welcome.html';
+      } else {
+        $.notify("You have entered an invalid username or password", { color: "#fff", background: "#D44950" });
+      }
       // $("#login-section").hide();
       // $("#welcome-section").show();
       // $("#username").text(loginData.user + "!");

@@ -1,0 +1,54 @@
+{
+    "Users": [
+        {
+            "email": "seth@godogsports.com",
+            "name": "Seth",
+            "password": "sports1"
+        },
+        {
+            "email": "marc@godogsports.com",
+            "name": "Marc",
+            "password": "sports2"
+        },
+        {
+            "email": "gary@godogsports.com",
+            "name": "Gary",
+            "password": "sports3"
+        },
+        {
+            "email": "sudip@godogsports.com",
+            "name": "Sudip",
+            "password": "sports4"
+        },
+        {
+            "email": "jason@godogsports.com",
+            "name": "Jason",
+            "password": "sports5"
+        },
+        {
+            "email": "mike@godogsports.com",
+            "name": "Mike",
+            "password": "sports6"
+        },
+        {
+            "email": "jon@godogsports.com",
+            "name": "Jon",
+            "password": "sports7"
+        },
+        {
+            "email": "viktor@godogsports.com",
+            "name": "Viktor",
+            "password": "sports8"
+        },
+        {
+            "email": "jesse@godogsports.com",
+            "name": "Jesse",
+            "password": "sports9"
+        },
+        {
+            "email": "cooper@godogsports.com",
+            "name": "Cooper",
+            "password": "sports10"
+        }
+    ]
+}
