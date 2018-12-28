@@ -31,7 +31,7 @@ $(document).ready(function () {
         sessionStorage.setItem('username', user.name);
         window.location.href = 'welcome.html';
       } else {
-        $.notify("You have entered an invalid username or password", { type: "danger" });
+        $.notify("Please enter valid username or password.", { type: "danger" });
       }
       // $("#login-section").hide();
       // $("#welcome-section").show();
@@ -41,7 +41,7 @@ $(document).ready(function () {
       // $('.calendar').pignoseCalendar();
 
     } else {
-      alert("Please Enter Email and Password.");
+      $.notify("Please enter valid username or password.", { type: "danger" });
     }
   });
 });
