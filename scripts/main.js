@@ -17,13 +17,22 @@
 })(jQuery);
 
 $(document).ready(function () {
+  $.ajax({ url: '../users.json', method: "GET" })
+    .success(function (response) {
+      userJson = response.Users;
+    });
+
   $("#loginForm").submit(function (event) {
     event.preventDefault();
     const loginData = $(this).serializeFormJSON();
     if (loginData.email && loginData.password) {
-      localStorage.setItem('username', loginData.email);
-      window.location.href = 'welcome.html';
-
+      var user = userJson.find(user => user.email === loginData.email && user.password === loginData.password);
+      if (user) {
+        sessionStorage.setItem('username', user.name);
+        window.location.href = 'welcome.html';
+      } else {
+        $.notify("Please enter valid username & password.", { type: "danger" });
+      }
       // $("#login-section").hide();
       // $("#welcome-section").show();
       // $("#username").text(loginData.user + "!");
@@ -32,7 +41,7 @@ $(document).ready(function () {
       // $('.calendar').pignoseCalendar();
 
     } else {
-      alert("Please Enter Email and Password.");
+      $.notify("Please enter valid username & password.", { type: "danger" });
     }
   });
 });
