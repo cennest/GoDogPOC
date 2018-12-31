@@ -199,12 +199,15 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   display: -webkit-flex;
   display: flex;
   margin-top: 17px;
+  margin-bottom: 8px;
 }
 
 .field-select-container p {
   font-size: 1.05rem;
   font-family: 'Agenda-light';
-  margin-top: 6px;
+  margin: 0;
+  align-self: center;
+  /* margin-bottom: 3px; */
 }
 
 .field-select-container .select-wrapper {
@@ -227,10 +230,12 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
 
 .field-select-container .select-wrapper input.select-dropdown {
   height: 2rem;
+  line-height: 2rem;
   font-size: 0.9rem;
   border-radius: 17px;
   border: 1px solid #C7C7C7;
   padding-left: 10px;
+  margin: 0;
 }
 
 .field-select-container .select-dropdown.dropdown-content li.selected {
