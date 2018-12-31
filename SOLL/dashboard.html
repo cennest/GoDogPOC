@@ -67,83 +67,336 @@
                 <div class="divider"></div>
 
                 <div class="camera-control-container">
-                    <p class="bold">Field Cameras On/Off</p>
+                    <p class="bold camera-control-header">Field Cameras On/Off</p>
+                    <div class="field-select-container">
+                        <p class="bold">Fields:</p>
+                        <select id="camera-select">
+                            <option value="1" selected>Field 1</option>
+                            <option value="2">Field 2</option>
+                            <option value="3">Field 3</option>
+                        </select>
+                    </div>
 
-                    <div class="control-container">
-                        <span class="control-count">1</span>
-                        <div class="field-image"></div>
-                        <div class="control">
-                            <span>Field 1 Cam On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox">
-                                <i></i>
-                            </label>
+
+                    <div id="fieldCam1" class="cam-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image active"></div>
+                            <div class="control active">
+                                <span>Cam 2 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox" checked="true">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="control-container">
-                        <span class="control-count">2</span>
-                        <div class="field-image active"></div>
-                        <div class="control active">
-                            <span>Field 2 Cam On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox" checked="true">
-                                <i></i>
-                            </label>
+
+                    <div id="fieldCam2" class="cam-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 2 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="control-container">
-                        <span class="control-count">3</span>
-                        <div class="field-image"></div>
-                        <div class="control">
-                            <span>Field 3 Cam On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox">
-                                <i></i>
-                            </label>
+
+                    <div id="fieldCam3" class="cam-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 2 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="camera-audio-container">
-                    <p class="bold">Field Camera Audio On/Off</p>
+                    <p class="bold camera-control-header">Field Camera Audio On/Off</p>
+                    <div class="field-select-container">
+                        <p class="bold">Fields:</p>
+                        <select id="camera-audio-select">
+                            <option value="1" selected>Field 1</option>
+                            <option value="2">Field 2</option>
+                            <option value="3">Field 3</option>
+                        </select>
+                    </div>
 
-                    <div class="control-container">
-                        <span class="control-count">1</span>
-                        <div class="field-image"></div>
-                        <div class="control">
-                            <span>Field 1 Cam Audio On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox">
-                                <i></i>
-                            </label>
+                    <div id="fieldCamAudio1" class="camAudio-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image active"></div>
+                            <div class="control active">
+                                <span>Cam 2 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox" checked="true">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div id="fieldCamAudio2" class="camAudio-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 2 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="control-container">
-                        <span class="control-count">2</span>
-                        <div class="field-image active"></div>
-                        <div class="control active">
-                            <span>Field 2 Cam Audio On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox" checked="true">
-                                <i></i>
-                            </label>
-                        </div>
-                    </div>
 
-                    <div class="control-container">
-                        <span class="control-count">3</span>
-                        <div class="field-image"></div>
-                        <div class="control">
-                            <span>Field 3 Cam Audio On/Off</span>
-                            <label class="form-switch">
-                                <input type="checkbox">
-                                <i></i>
-                            </label>
+
+                    <div id="fieldCamAudio3" class="camAudio-control">
+                        <div class="control-container">
+                            <span class="control-count">1</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 1 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">2</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 2 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-container">
+                            <span class="control-count">3</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 3 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="control-container">
+                            <span class="control-count">4</span>
+                            <div class="field-image"></div>
+                            <div class="control">
+                                <span>Cam 4 Audio On/Off</span>
+                                <label class="form-switch">
+                                    <input type="checkbox">
+                                    <i></i>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,6 +416,7 @@
                         <h5>DVR CONTROLS</h5>
                     </div>
 
+                    <h6 class="bold dvr-subheading">Families</h6>
                     <p class="bold dvr-text">
                         Number of days to archive games for <span class="red-text">Families</span> to access
                     </p>
@@ -185,6 +439,7 @@
 
                     <div class="divider dvr-divider"></div>
 
+                    <h6 class="bold dvr-subheading">Admins</h6>
                     <p class="bold dvr-text">
                         Number of days to archive games for <span class="red-text">Admins</span> to access
                     </p>

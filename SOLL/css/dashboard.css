@@ -77,6 +77,10 @@ body {
   position: relative;
 }
 
+.control-container-wrapper {
+  display: none;
+}
+
 .control {
   display: -webkit-box;
   display: -moz-box;
@@ -162,6 +166,10 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   margin-bottom: 12px !important;
 }
 
+.display-messages-container p:first-child {
+  font-size: 1.15rem;
+}
+
 .divider {
   display: block;
   height: 1px;
@@ -176,8 +184,50 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
 }
 
 .camera-control-container p {
-  font-weight: bold;
   margin-top: 0;
+}
+
+.camera-control-header {
+  margin-bottom: 2px;
+  font-size: 1.15rem;
+}
+
+.field-select-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin: 5px 0;
+}
+
+.field-select-container p {
+  font-size: 1.05rem;
+  font-family: 'Agenda-light';
+  margin-top: 5px;
+}
+
+.field-select-container .select-wrapper {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.field-select-container .select-wrapper input.select-dropdown:focus {
+  border-bottom: 1px solid #949494;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  color: black;
+}
+
+.field-select-container .select-wrapper input.select-dropdown {
+  height: 2rem;
+  font-size: 0.9rem;
+}
+
+.field-select-container .select-wrapper .caret {
+  top: 5px;
+  bottom: unset;
 }
 
 .material-icons {
@@ -267,8 +317,14 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
 }
 
 .dvr-text {
+  margin-top: 2px;
   font-size: .98rem;
   text-align: center;
+  font-family: 'Agenda-light';
+}
+
+.dvr-subheading {
+  margin: 0;
 }
 
 .navigation-control {
