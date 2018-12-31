@@ -1070,8 +1070,9 @@ ul.cmRight li ul li ul {
 .login-card .helpAndFaq,
 .welcome-card .helpAndFaq {
   position: absolute;
-  background-color: #3b2563;
-  bottom: 1px;
+  background: url(../../images/wgt_col_ctr_top_ctr.png);
+  background-position:left;
+  bottom: -1px;
   left: 0;
   right: 0;
   border-bottom-right-radius: 10px;
@@ -1211,7 +1212,7 @@ input[type=password]:hover {
   font-weight: normal;
   color: white;
   text-align: center;
-  padding: 15px 35px;
+  padding: 10px 35px;
   opacity: 1;
   width: calc(50% - 72px);
   text-decoration: none;
@@ -1220,7 +1221,7 @@ input[type=password]:hover {
 .login-card .helpAndFaq .helpDivider,
 .welcome-card .helpAndFaq .helpDivider {
   width: 3px;
-  top: 10px;
+  top: 6px;
   background-color: #3b7dab;
   overflow: hidden;
   float: left;
