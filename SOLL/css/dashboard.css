@@ -239,15 +239,15 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
   width: 35px !important;
 }
 
-.dot-container label input[type="radio"][name="group1"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+.dot-container label input[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
   background-color: #5BCC26;
   z-index: -1;
 }
 
-.dot-container label input[type="radio"][name="group2"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+/* .dot-container label input[type="radio"][name="group2"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
   background-color: #FF2C21;
   z-index: -1;
-}
+} */
 
 .dot-container label input[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after, [type="radio"].with-gap:checked+span:before {
   border: transparent;

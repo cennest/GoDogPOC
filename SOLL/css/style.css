@@ -1070,8 +1070,9 @@ ul.cmRight li ul li ul {
 .login-card .helpAndFaq,
 .welcome-card .helpAndFaq {
   position: absolute;
-  background-color: #3b2563;
-  bottom: 1px;
+  /* background-color: #3b2563; */
+  background: url(../../images/wgt_col_ctr_top_ctr.png);
+  bottom: -5px;
   left: 0;
   right: 0;
   border-bottom-right-radius: 10px;
