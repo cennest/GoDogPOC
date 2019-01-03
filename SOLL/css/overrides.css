@@ -92,6 +92,7 @@ body {
 
 .fullwidthcontainer .mid .content {
   padding-top: 0;
+  position: relative;
 }
 
 .fullwidthcontainer .wgt_container .content {
@@ -488,4 +489,36 @@ a.bonzi_registernow {
   background-size: contain !important;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.baseball-loader{
+  width: 5% !important;
+  position: absolute;
+  top: 59%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
