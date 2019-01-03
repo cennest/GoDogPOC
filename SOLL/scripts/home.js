@@ -25,12 +25,18 @@ $(document).ready(function () {
             width: 680,
             autoplay: true
         });
+        setTimeout(() => {
+            $('.baseball-loader').show();
+        }, 100);
     }
 
-    var video = $("#sldp_player_wrapper")[0].getElementsByTagName("video")[0];
-    $(video).on("play", function () {
-        $('.baseball-loader').hide();
-    });
+
+    setTimeout(() => {
+        var video = $("#sldp_player_wrapper")[0].getElementsByTagName("video")[0];
+        $(video).on("play", function () {
+            $('.baseball-loader').hide();
+        });
+    }, 100);
 
     function removePlayer() {
         sldpPlayer.destroy();
