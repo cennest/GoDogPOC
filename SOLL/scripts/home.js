@@ -12,33 +12,40 @@ $(document).ready(function () {
     $("#accordMenu").accordionMenu();
     $('.calendar').pignoseCalendar();
 
-    $('#sldp_player_wrapper').css('display', 'block');;
-    initSldpPlayer();
-
-    var sldpPlayer;
-    function initSldpPlayer() {
-        sldpPlayer = SLDP.init({
-            container: "sldp_player_wrapper",
-            stream_url: "ws://104.248.182.51:8081/live/1",
-            splash_screen: '../images/VideoStream_Loading_noBall.jpg',
-            height: 520,
-            width: 680,
-            autoplay: true
+    var playerInstance;
+    var playerId = Math.random().toString(36).replace(/[^a-z]+/g, '');
+    $('.playerWrapper').attr('id', playerId);
+    initPlayer();
+    function initPlayer() {
+        playerInstance = jwplayer(playerId);
+        playerInstance.setup({
+            file: 'http://157.230.210.134:8081/live/1/playlist.m3u8',
+            mediaid: playerId
         });
-        setTimeout(() => {
-            $('.baseball-loader').show();
-        }, 100);
+        playerInstance.resize('100%', '100%');
+        playerInstance.on('setupError', (msg) => {
+            console.log('Setup Error', msg);
+            $('.splashscreen-container').css('display', 'none');
+        });
+        playerInstance.on('play', () => {
+            $('.splashscreen-container').css('display', 'none');
+        });
+        playerInstance.on('buffer', () => {
+            $('.jw-display-icon-container').hide();
+            $('.splashscreen-container').show();
+        });
+        playerInstance.on('error', (e) => {
+            console.log('Error', e);
+            $('.splashscreen-container').css('display', 'none');
+        });
+        playerInstance.on('idle', () => {
+            $('.splashscreen-container').css('display', 'none');
+        });
     }
 
-
-    setTimeout(() => {
-        var video = $("#sldp_player_wrapper")[0].getElementsByTagName("video")[0];
-        $(video).on("play", function () {
-            $('.baseball-loader').hide();
-        });
-    }, 100);
-
     function removePlayer() {
-        sldpPlayer.destroy();
+        if (playerInstance) {
+            playerInstance.remove();
+        }
     }
 });
